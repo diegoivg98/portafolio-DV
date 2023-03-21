@@ -6,10 +6,10 @@
 
 @layer base {
   body {
-    @apply font-[Raleway];
+      @apply font-[Raleway];
   }
   li {
-    @apply px-4;
-    @apply cursor-pointer;
+      @apply px-4;
+      @apply cursor-pointer
   }
 }
