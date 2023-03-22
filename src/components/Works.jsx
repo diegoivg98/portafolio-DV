@@ -4,6 +4,7 @@ import SistemaTicket from "../assets/proyectos/sistema-ticket.png";
 import TextToSpeech from "../assets/proyectos/text-to-speech.png";
 import Calculadora from "../assets/proyectos/calculadora.png";
 import IronFly from "../assets/proyectos/iron-fly.png";
+import Portfolio from "../assets/proyectos/portfolio.png";
 
 const Works = () => {
   /* An array of objects. */
@@ -27,6 +28,10 @@ const Works = () => {
     {
       id: 5,
       src: IronFly,
+    },
+    {
+      id: 6,
+      src: Portfolio,
     },
   ];
 
