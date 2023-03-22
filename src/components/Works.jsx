@@ -33,7 +33,7 @@ const Works = () => {
   return (
     <div
       name="works"
-      className="w-full text-slate-900 bg-[#dfe0e2] md:h-screena"
+      className="w-full text-slate-900 bg-[#dfe0e2]"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
