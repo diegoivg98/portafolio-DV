@@ -33,7 +33,7 @@ const Navbar = () => {
       </div>
 
       {/* Menu mobile */}
-      <ul className={!navbar ? 'hidden':'absolute top-0 left-0 w-full h-screen bg-[#23b5d3] flex flex-col justify-center items-center'}>
+      <ul className={!navbar ? 'hidden':'absolute top-0 left-0 w-full h-screen bg-[#071013] flex flex-col justify-center items-center'}>
         <li className="py-6 text-4xl">Inicio</li>
         <li className="py-6 text-4xl">Sobre mi</li>
         <li className="py-6 text-4xl">Tecnologias</li>
