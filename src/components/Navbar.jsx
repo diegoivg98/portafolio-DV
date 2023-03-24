@@ -3,6 +3,7 @@ import Logo from "../assets/Logo.png";
 import { FaBars, FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi"
 import { BsDownload } from "react-icons/bs"
+import { Link } from "react-scroll";
 
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
@@ -21,10 +22,10 @@ const Navbar = () => {
 
       {/* Menu */}
       <ul className="hidden md:flex">
-        <li>Inicio</li>
-        <li>Sobre mi</li>
-        <li>Tecnologias</li>
-        <li>Proyectos</li>
+        <li><Link to='home' smooth={true} duration={500}>Inicio</Link></li>
+        <li><Link to='about' smooth={true} duration={500}>Sobre mi</Link></li>
+        <li><Link to='skills' smooth={true} duration={500}>Tecnologias</Link></li>
+        <li><Link to='works' smooth={true} duration={500}>Proyectos</Link></li>
       </ul>
 
       {/* Menu Hamburger */}
