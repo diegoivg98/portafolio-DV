@@ -4,6 +4,7 @@ import { FaBars, FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsDownload } from "react-icons/bs";
 import { Link } from "react-scroll";
+import Cv from "../assets/CV_Diego_Vistoso.pdf"
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -90,7 +91,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-black">
             <a
               className="flex justify-between items-center w-full text-gray-50"
-              href=""
+              href="https://github.com/diegoivg98"
             >
               Github
               <FaGithub size={36} />
@@ -99,7 +100,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-900">
             <a
               className="flex justify-between items-center w-full text-gray-50"
-              href="https://www.linkedin.com/in/diego-vistoso/"
+              href="mailto:diegoivg98@gmail.com"
             >
               Correo
               <HiOutlineMail size={36} />
@@ -108,7 +109,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-30 bg-gray-500">
             <a
               className="flex justify-between items-center w-full text-gray-50"
-              href=""
+              href={Cv}
+              download
             >
               Curriculum <BsDownload size={36} />
             </a>
