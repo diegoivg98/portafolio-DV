@@ -1,10 +1,10 @@
 import React from "react";
-import CoinBase from "../assets/proyectos/coinbase.jpeg";
-import SistemaTicket from "../assets/proyectos/sistema-ticket.png";
-import TextToSpeech from "../assets/proyectos/text-to-speech.png";
-import Calculadora from "../assets/proyectos/calculadora.png";
-import IronFly from "../assets/proyectos/iron-fly.png";
-import Portfolio from "../assets/proyectos/portfolio.png";
+import CoinBase from "../assets/proyectos/coinbase.jpg";
+import SistemaTicket from "../assets/proyectos/sistema-ticket.jpg";
+import TextToSpeech from "../assets/proyectos/text-to-speech.jpg";
+import Calculadora from "../assets/proyectos/calculadora.jpg";
+import IronFly from "../assets/proyectos/iron-fly.jpg";
+import Portfolio from "../assets/proyectos/portafolio.jpg";
 
 const Works = () => {
   /* An array of objects. */
