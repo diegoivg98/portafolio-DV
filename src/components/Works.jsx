@@ -52,7 +52,7 @@ const Works = () => {
           <p className="text-4xl font-bold inline border-b-4 text-gray-900 border-slate-900">
             Proyectos
           </p>
-          <p className="py-6">Proyectos</p>
+          <p className="py-6">Revisa algunos de mis proyectos</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">

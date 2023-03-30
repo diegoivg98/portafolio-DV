@@ -16,7 +16,7 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-slate-900">
             Contacto
           </p>
-          <p className="py-4"></p>
+          <p className="py-4">Rellena el formulario para ponerte en contacto conmigo.</p>
         </div>
         <input
           className="bg-[#f5f5f5] p-2"

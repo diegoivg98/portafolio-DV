@@ -16,7 +16,7 @@ const About = () => {
           <div className="sm:text-right text-4xl font-bold">
             <p>
               👋 Hola. Soy Diego, mucho gusto. Por favor, echa un vistazo
-              alrededor. 👋
+              al nuevo Portafolio. 👋
             </p>
           </div>
           <div>
