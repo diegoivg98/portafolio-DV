@@ -12,26 +12,36 @@ const Works = () => {
     {
       id: 1,
       src: CoinBase,
+      demo:'https://github.com/diegoivg98/Coinbase',
+      code:'https://diegoivg98.github.io/Coinbase/'
     },
     {
       id: 2,
       src: SistemaTicket,
+      code: 'https://github.com/diegoivg98/Sistema-Ticket'
     },
     {
       id: 3,
       src: TextToSpeech,
+      demo:'https://diegoivg98.github.io/Text-to-Speech/',
+      code:'https://github.com/diegoivg98/Text-to-Speech'
     },
     {
       id: 4,
       src: Calculadora,
+      demo:'https://diegoivg98.github.io/Calculadora/',
+      code:'https://github.com/diegoivg98/Calculadora'
     },
     {
       id: 5,
       src: IronFly,
+      code:'https://github.com/diegoivg98/Iron-Fly'
     },
     {
       id: 6,
       src: Portfolio,
+      demo:'https://diegoivg98.github.io/Portfolio/',
+      code:'https://github.com/diegoivg98/Portfolio'
     },
   ];
 
@@ -49,7 +59,7 @@ const Works = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {proyectos.map(({ id, src }) => (
+          {proyectos.map(({ id, src, demo, code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -57,12 +67,16 @@ const Works = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
+              <a href={demo}>
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-900 font-bold text-lg">
                   Demo
                 </button>
+              </a>
+              <a href={code}>
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-900 font-bold text-lg">
                   Code
                 </button>
+                </a>
               </div>
             </div>
           ))}
