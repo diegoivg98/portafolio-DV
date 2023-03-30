@@ -12,44 +12,41 @@ const Works = () => {
     {
       id: 1,
       src: CoinBase,
-      demo:'https://github.com/diegoivg98/Coinbase',
-      code:'https://diegoivg98.github.io/Coinbase/'
+      demo: "https://github.com/diegoivg98/Coinbase",
+      code: "https://diegoivg98.github.io/Coinbase/",
     },
     {
       id: 2,
       src: SistemaTicket,
-      code: 'https://github.com/diegoivg98/Sistema-Ticket'
+      code: "https://github.com/diegoivg98/Sistema-Ticket",
     },
     {
       id: 3,
       src: TextToSpeech,
-      demo:'https://diegoivg98.github.io/Text-to-Speech/',
-      code:'https://github.com/diegoivg98/Text-to-Speech'
+      demo: "https://diegoivg98.github.io/Text-to-Speech/",
+      code: "https://github.com/diegoivg98/Text-to-Speech",
     },
     {
       id: 4,
       src: Calculadora,
-      demo:'https://diegoivg98.github.io/Calculadora/',
-      code:'https://github.com/diegoivg98/Calculadora'
+      demo: "https://diegoivg98.github.io/Calculadora/",
+      code: "https://github.com/diegoivg98/Calculadora",
     },
     {
       id: 5,
       src: IronFly,
-      code:'https://github.com/diegoivg98/Iron-Fly'
+      code: "https://github.com/diegoivg98/Iron-Fly",
     },
     {
       id: 6,
       src: Portfolio,
-      demo:'https://diegoivg98.github.io/Portfolio/',
-      code:'https://github.com/diegoivg98/Portfolio'
+      demo: "https://diegoivg98.github.io/Portfolio/",
+      code: "https://github.com/diegoivg98/Portfolio",
     },
   ];
 
   return (
-    <div
-      name="works"
-      className="w-full text-slate-900 bg-[#dfe0e2]"
-    >
+    <div name="works" className="w-full text-slate-900 bg-[#dfe0e2]">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-900 border-slate-900">
@@ -67,15 +64,17 @@ const Works = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-              <a href={demo}>
-                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-900 font-bold text-lg">
-                  Demo
-                </button>
-              </a>
-              <a href={code}>
-                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-900 font-bold text-lg">
-                  Code
-                </button>
+                {demo && (
+                  <a href={demo}>
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-900 font-bold text-lg">
+                      Demo
+                    </button>
+                  </a>
+                )}
+                <a href={code}>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-900 font-bold text-lg">
+                    Code
+                  </button>
                 </a>
               </div>
             </div>
