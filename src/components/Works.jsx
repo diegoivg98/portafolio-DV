@@ -5,6 +5,7 @@ import TextToSpeech from "../assets/proyectos/text-to-speech.jpg";
 import Calculadora from "../assets/proyectos/calculadora.jpg";
 import IronFly from "../assets/proyectos/iron-fly.jpg";
 import Portfolio from "../assets/proyectos/portafolio.jpg";
+import PortfolioV2 from "../assets/proyectos/portafolioV2.jpg"
 
 const Works = () => {
   /* An array of objects. */
@@ -42,6 +43,12 @@ const Works = () => {
       src: Portfolio,
       demo: "https://diegoivg98.github.io/Portfolio/",
       code: "https://github.com/diegoivg98/Portfolio",
+    },
+    {
+      id: 7,
+      src: PortfolioV2,
+      demo: "https://diegovistoso.netlify.app/",
+      code: "https://github.com/diegoivg98/portafolio-DV",
     },
   ];
 
