@@ -5,6 +5,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsDownload } from "react-icons/bs";
 import { Link } from "react-scroll";
 import Cv from "../assets/CV_Diego_Vistoso.pdf"
+import 'animate.css'
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -87,7 +88,7 @@ const Navbar = () => {
       </ul>
 
       {/* Iconos RRSS */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-0 animate__animated animate__fadeInLeft">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
