@@ -12,44 +12,44 @@ const Works = () => {
   const proyectos = [
     {
       id: 1,
-      src: CoinBase,
-      demo: "https://github.com/diegoivg98/Coinbase",
-      code: "https://diegoivg98.github.io/Coinbase/",
+      src: PortfolioV2,
+      demo: "https://diegovistoso.netlify.app/",
+      code: "https://github.com/diegoivg98/portafolio-DV",
     },
     {
       id: 2,
-      src: SistemaTicket,
-      code: "https://github.com/diegoivg98/Sistema-Ticket",
-    },
-    {
-      id: 3,
-      src: TextToSpeech,
-      demo: "https://diegoivg98.github.io/Text-to-Speech/",
-      code: "https://github.com/diegoivg98/Text-to-Speech",
-    },
-    {
-      id: 4,
-      src: Calculadora,
-      demo: "https://diegoivg98.github.io/Calculadora/",
-      code: "https://github.com/diegoivg98/Calculadora",
-    },
-    {
-      id: 5,
-      src: IronFly,
-      code: "https://github.com/diegoivg98/Iron-Fly",
-    },
-    {
-      id: 6,
       src: Portfolio,
       demo: "https://diegoivg98.github.io/Portfolio/",
       code: "https://github.com/diegoivg98/Portfolio",
     },
     {
-      id: 7,
-      src: PortfolioV2,
-      demo: "https://diegovistoso.netlify.app/",
-      code: "https://github.com/diegoivg98/portafolio-DV",
+      id: 3,
+      src: Calculadora,
+      demo: "https://diegoivg98.github.io/Calculadora/",
+      code: "https://github.com/diegoivg98/Calculadora",
     },
+    {
+      id: 4,
+      src: TextToSpeech,
+      demo: "https://diegoivg98.github.io/Text-to-Speech/",
+      code: "https://github.com/diegoivg98/Text-to-Speech",
+    },
+    {
+      id: 5,
+      src: CoinBase,
+      demo: "https://github.com/diegoivg98/Coinbase",
+      code: "https://diegoivg98.github.io/Coinbase/",
+    },
+    {
+      id: 6,
+      src: SistemaTicket,
+      code: "https://github.com/diegoivg98/Sistema-Ticket",
+    },
+    {
+      id: 7,
+      src: IronFly,
+      code: "https://github.com/diegoivg98/Iron-Fly",
+    }
   ];
 
   return (
