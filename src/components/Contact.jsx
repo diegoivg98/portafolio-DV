@@ -5,9 +5,10 @@ const Contact = () => {
   const [state, handleSubmit] = useForm("mjvdelzl");
   return (
     <div
-      name="contact"
-      className="w-full h-screen bg-[#b4d6c1] flex justify-center items-center py-4"
-    >
+    name="contact"
+    className="w-full h-screen bg-[#b4d6c1] flex justify-center items-center p-4"
+  >
+  
       <form
         onSubmit={handleSubmit}
         className="flex flex-col max-w-[600px] w-full"
