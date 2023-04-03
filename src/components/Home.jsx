@@ -12,7 +12,7 @@ const Home = () => {
         <h2 className="text-4xl sm:text-7xl font-bold">
           Desarrollador Full Stack.
         </h2>
-        <p className="py-4 max-w[700px] font-sans">
+        <p className="py-4 max-w[700px] font-serif text-gray-800">
           Tengo habilidades en la creación y desarrollo de sitios web dinámicos
           utilizando diversas tecnologías y herramientas de programación. En
           constante aprendizaje y actualmente estoy adquiriendo conocimientos en
