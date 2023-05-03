@@ -3,7 +3,6 @@ import CoinBase from "../assets/proyectos/coinbase.jpg";
 import SistemaTicket from "../assets/proyectos/sistema-ticket.jpg";
 import TextToSpeech from "../assets/proyectos/text-to-speech.jpg";
 import Calculadora from "../assets/proyectos/calculadora.jpg";
-import IronFly from "../assets/proyectos/iron-fly.jpg";
 import Portfolio from "../assets/proyectos/portafolio.jpg";
 import PortfolioV2 from "../assets/proyectos/portafolioV2.jpg"
 import CasoFonasa from "../assets/proyectos/fonasa.png"
@@ -50,11 +49,6 @@ const Works = () => {
       id: 7,
       src: SistemaTicket,
       code: "https://github.com/diegoivg98/Sistema-Ticket",
-    },
-    {
-      id: 8,
-      src: IronFly,
-      code: "https://github.com/diegoivg98/Iron-Fly",
     }
   ];
 
