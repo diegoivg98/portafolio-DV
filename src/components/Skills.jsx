@@ -88,10 +88,6 @@ const Skills = () => {
               <img className="w-32 mx-auto" src={TAILWINDCSS} alt="TAILDWINDCSS icon" />
               <p className="my-4 font-bold">TAILWIND CSS</p>
             </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={LARAVEL} alt="LARAVEL Icon" />
-              <p className="my-4 font-bold">LARAVEL</p>
-            </div>
           </div>
 
         </div>
