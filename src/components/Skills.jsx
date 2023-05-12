@@ -7,7 +7,6 @@ import TAILWINDCSS from "../assets/tailwindcss.svg";
 import GIT from "../assets/git.svg";
 import POSTGRESQL from "../assets/postgresql.svg";
 import MYSQL from "../assets/mysql.svg";
-import LARAVEL from "../assets/laravel.svg";
 
 const Skills = () => {
   return (
