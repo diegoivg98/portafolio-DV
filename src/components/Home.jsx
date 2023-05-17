@@ -16,7 +16,7 @@ const Home = () => {
           Tengo habilidades en la creación y desarrollo de sitios web dinámicos
           utilizando diversas tecnologías y herramientas de programación. En
           constante aprendizaje y actualmente estoy adquiriendo conocimientos en
-          Laravel y ReactJS en <strong>Open Bootcamp</strong>
+          ReactJS y Tailwind CSS
         </p>
         <div>
           <Link to="works" smooth={true} duration={500}>
