@@ -6,9 +6,9 @@ import Calculadora from "../assets/proyectos/calculadora.jpg";
 import Portfolio from "../assets/proyectos/portafolio.jpg";
 import PortfolioV2 from "../assets/proyectos/portafolioV2.jpg"
 import CasoFonasa from "../assets/proyectos/fonasa.png"
+import Weather from "../assets/proyectos/weather"
 
 const Works = () => {
-  /* An array of objects. */
   const proyectos = [
     {
       id: 1,
@@ -24,29 +24,35 @@ const Works = () => {
     },
     {
       id: 3,
+      src: Weather,
+      demo: "https://app-clima-dv.netlify.app/",
+      code: "https://github.com/diegoivg98/app_clima",
+    },
+    {
+      id: 4,
       src: Calculadora,
       demo: "https://diegoivg98.github.io/Calculadora/",
       code: "https://github.com/diegoivg98/Calculadora",
     },
     {
-      id: 4,
+      id: 5,
       src: TextToSpeech,
       demo: "https://diegoivg98.github.io/Text-to-Speech/",
       code: "https://github.com/diegoivg98/Text-to-Speech",
     },
     {
-      id: 5,
+      id: 6,
       src: CoinBase,
       demo: "https://github.com/diegoivg98/Coinbase",
       code: "https://diegoivg98.github.io/Coinbase/",
     },
     {
-      id: 6,
+      id: 7,
       src: CasoFonasa,
       code: "https://github.com/diegoivg98/Prueba-Fonasa",
     },
     {
-      id: 7,
+      id: 8,
       src: SistemaTicket,
       code: "https://github.com/diegoivg98/Sistema-Ticket",
     }
