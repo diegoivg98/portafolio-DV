@@ -6,7 +6,7 @@ import Calculadora from "../assets/proyectos/calculadora.jpg";
 import Portfolio from "../assets/proyectos/portafolio.jpg";
 import PortfolioV2 from "../assets/proyectos/portafolioV2.jpg"
 import CasoFonasa from "../assets/proyectos/fonasa.png"
-import Weather from "../assets/proyectos/weather.png"
+import Weather from "../assets/proyectos/weather.jpg"
 
 const Works = () => {
   const proyectos = [
