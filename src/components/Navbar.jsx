@@ -40,11 +40,6 @@ const Navbar = () => {
             Proyectos
           </Link>
         </li>
-        <li>
-          <Link to="contact" smooth={true} duration={500}>
-            Contacto
-          </Link>
-        </li>
       </ul>
 
       {/* Menu Hamburger */}
